@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,6 +15,9 @@ body {
     flex-wrap: wrap;
     height: 100px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background: white;
 }
 
 .logo {
@@ -52,6 +56,7 @@ body {
     color: white;
     border-radius: 5px;
     margin: 0 10% 0 5%;
+    transition: backgorund 0.2s;
 }
 
 #contact-us:hover {
@@ -63,6 +68,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-top: 100px;
 }
 
 .headline {
@@ -98,6 +104,7 @@ body {
     text-transform: uppercase;
     border-radius: 5px;
     text-decoration: none;
+    transition: backgorund 0.2s;
 }
 
 .contact-btn:hover {
@@ -113,4 +120,96 @@ body {
 
 .img-headline  img {
     max-width: 90%;
+}
+
+section {
+    margin: 80px 5% 0 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.services {
+    display: flex;
+    margin-top: 5%;
+}
+
+.card {
+    width: 30%;
+    min-height: 400px;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+.hover-card-text {
+    display: none;
+    color: white;
+}
+
+.card:hover {
+    background: #ff2978;
+    color: white;
+    padding: 40px;
+    box-shadow: #180f4a;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .hover-card-text {
+    display: block;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin-top: 100px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, black );
+    color: white;
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+footer h2 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 34px;
+}
+
+footer b {
+    margin-top: 150px;
+}
+
+.whatsapp-btn {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;;
+    border-radius: 50%;
+    transition: background 0.4s;
+}
+
+.whatsapp-btn:hover {
+    background: rgba(0, 200, 0, 0.09);
 }
