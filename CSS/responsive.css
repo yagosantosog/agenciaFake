@@ -11,6 +11,10 @@
         text-align: center;
     }
 
+    .first-header-h2 {
+        letter-spacing: 10px;
+    }
+
     .headline {
         flex: 100%;
         margin: 5%;
