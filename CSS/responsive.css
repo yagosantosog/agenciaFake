@@ -20,6 +20,10 @@
         letter-spacing: 10px;
     }
 
+    .second-header-h2 {
+        font-size: 55px;
+    }
+
     .headline {
         flex: 100%;
         margin: 5% 5% 10% 5%;
