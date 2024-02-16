@@ -3,6 +3,10 @@
         display: none;
     }
 
+    .menu-mobile {
+        display: block;
+    }
+
     .navbar {
         position: relative;
     }
