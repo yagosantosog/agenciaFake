@@ -52,4 +52,23 @@
     .card {
         width: 100%;
     }
+
+    .whatsapp-btn {
+        max-width: 6rem;
+    }
+
+    body h2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .whatsapp-btn {
+        max-width: 5rem;
+    }
+
+    body h2 {
+        font-size: 2.5rem;
+    }
 }
